@@ -20,7 +20,7 @@
  */
 
 metadata {
-	definition(name: "Z-Wave Door/Window Sensor", namespace: "AeotecDrivers", author: "WIZKID") {
+	definition(name: "Z-Wave Door/Window Sensor", namespace: "AeotecDrivers", author: "WIZKID", importUrl: "https://raw.githubusercontent.com/wizkidorg/Aeotec-Window-Door-Sensor-6/master/aeotecdriver.groovy") {
 		capability "Contact Sensor"
 		capability "Sensor"
 		capability "Battery"
