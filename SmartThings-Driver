@@ -14,10 +14,13 @@
  *
  *  Author: SmartThings
  *  Date: 2013-11-3
+ *  Author: WIZKID
+ *  Date: 2022-02-12
+ *    Changed files for Hubitat compatibilty and remove non-important smartthings data
  */
 
 metadata {
-	definition(name: "Z-Wave Door/Window Sensor", namespace: "smartthings", author: "SmartThings", ocfDeviceType: "x.com.st.d.sensor.contact", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, genericHandler: "Z-Wave") {
+	definition(name: "Z-Wave Door/Window Sensor", namespace: "AeotecDrivers", author: "WIZKID") {
 		capability "Contact Sensor"
 		capability "Sensor"
 		capability "Battery"
